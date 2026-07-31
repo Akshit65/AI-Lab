@@ -1,0 +1,8 @@
+domain,total_candidates,avg_match_rate_pct,total_skills_demanded,total_skills_supplied,gap_score,top_demanded_skill
+Business & Marketing,1017,0.2,17,2997,5706,brand promotion
+Civil & Mechanical Engineering,2037,1.6,18,3015,6405,autocad
+Data & AI,1015,6.1,17,3003,4767,python
+Finance & Audit,1017,0.3,6,2997,2004,vat and tax
+HR & Administration,1018,0.1,6,3005,2371,human resource management
+IT Infrastructure,1355,1.1,26,2997,8470,asp.net mvc strong understanding of database design
+Software Engineering,338,0.0,8,2994,2703,ios
