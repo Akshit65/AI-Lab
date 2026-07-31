@@ -1,0 +1,7 @@
+{
+  "total_rows": 60,
+  "classify_zeroshot_acc": 0.15,
+  "classify_fewshot_acc": 0.2,
+  "entity_zeroshot_json_rate": 1.0,
+  "entity_cot_json_rate": 0.9833
+}
