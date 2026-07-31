@@ -1,0 +1,16 @@
+{"timestamp": "2026-07-31T21:02:49.924402+00:00", "node": "retrieve_node", "input": "job_description='accounting...'", "output": "retrieved 3 candidates: ['id_4', 'id_3', 'id_1']", "decision": null}
+{"timestamp": "2026-07-31T21:02:51.568778+00:00", "node": "score_node", "input": "scoring 3 candidates", "output": "produced 3 reports: [('id_4', 90), ('id_3', 95), ('id_1', 90)]", "decision": null}
+{"timestamp": "2026-07-31T21:02:51.570944+00:00", "node": "quality_check_node", "input": "3 reports evaluated against threshold 50", "output": "3 strong matches found", "decision": "strong_match"}
+{"timestamp": "2026-07-31T21:02:53.208353+00:00", "node": "draft_node", "input": "drafting outreach for 3 strong matches", "output": "3 emails drafted", "decision": null}
+{"timestamp": "2026-07-31T21:03:22.811269+00:00", "node": "human_approval_node", "input": "3 drafted emails presented for approval", "output": "human responded: approved", "decision": "approved"}
+{"timestamp": "2026-07-31T21:03:22.813182+00:00", "node": "finalize_node", "input": "3 approved emails", "output": "finalized (sandboxed \u2014 no real email sent)", "decision": null}
+{"timestamp": "2026-07-31T21:05:50.268088+00:00", "node": "retrieve_node", "input": "job_description='Senior Kubernetes and cloud infrastructure engineer with Go and Terraform experi...'", "output": "retrieved 3 candidates: ['id_5', 'id_2', 'id_3']", "decision": null}
+{"timestamp": "2026-07-31T21:05:51.539052+00:00", "node": "score_node", "input": "scoring 3 candidates", "output": "produced 3 reports: [('id_5', 0), ('id_2', 0), ('id_3', 0)]", "decision": null}
+{"timestamp": "2026-07-31T21:05:51.540951+00:00", "node": "quality_check_node", "input": "3 reports evaluated against threshold 50", "output": "0 strong matches found", "decision": "no_match"}
+{"timestamp": "2026-07-31T21:05:51.541691+00:00", "node": "no_match_node", "input": "no candidates cleared the match threshold", "output": "agent stopped gracefully, no outreach drafted", "decision": null}
+{"timestamp": "2026-07-31T21:07:37.709372+00:00", "node": "retrieve_node", "input": "job_description='x...'", "output": "retrieved 3 candidates: ['id_3', 'id_2', 'id_4']", "decision": null}
+{"timestamp": "2026-07-31T21:07:41.096649+00:00", "node": "score_node", "input": "scoring 3 candidates", "output": "produced 3 reports: [('id_3', 90), ('id_2', 80), ('id_4', 0)]", "decision": null}
+{"timestamp": "2026-07-31T21:07:41.098827+00:00", "node": "quality_check_node", "input": "3 reports evaluated against threshold 50", "output": "2 strong matches found", "decision": "strong_match"}
+{"timestamp": "2026-07-31T21:07:42.027199+00:00", "node": "draft_node", "input": "drafting outreach for 2 strong matches", "output": "2 emails drafted", "decision": null}
+{"timestamp": "2026-07-31T21:07:52.546776+00:00", "node": "human_approval_node", "input": "2 drafted emails presented for approval", "output": "human responded: approved", "decision": "approved"}
+{"timestamp": "2026-07-31T21:07:52.548778+00:00", "node": "finalize_node", "input": "2 approved emails", "output": "finalized (sandboxed \u2014 no real email sent)", "decision": null}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise AI Assistant</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>Enterprise AI</h2>
+
+        <button id="newChat">+ New Chat</button>
+
+        <div class="history">
+            Chat History
+        </div>
+
+    </div>
+
+    <div class="chat-area">
+
+        <div id="messages" class="messages">
+
+            <div class="bot-message">
+                👋 Hello! I am your Enterprise AI Assistant.
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask me anything..."
+            >
+
+            <button id="sendBtn">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
